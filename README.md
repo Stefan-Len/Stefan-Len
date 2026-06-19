@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/qde-systems-banner.png" alt="QDE-Systems banner" width="100%">
+</p>
+
 # Stefan Len
 
 Founder/operator of **QDE-Systems**.
