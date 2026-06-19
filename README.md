@@ -1,49 +1,55 @@
 # Stefan Len
 
-AI & Quant Systems Engineer  
-Execution Infrastructure Architect  
-Agent Runtime and MCP Systems
+Founder/operator of **QDE-Systems**.
 
-I build execution and agent infrastructure.
+I build deterministic execution infrastructure: systems where market data, risk
+boundaries, execution planning, audit records, and operator review stay visible
+instead of disappearing into a black box.
 
-My work sits where AI systems, market infrastructure, and backend engineering meet: deterministic flows, risk gates, tool boundaries, and clear runtime records.
+My current work is focused on QDE: source-code infrastructure for disciplined,
+auditable execution workflows. The commercial system is private and
+application-based. The public repositories show selected architecture ideas,
+not the full QDE product.
 
-Most of my commercial work is private. The repositories below are public samples: small enough to inspect, but shaped around the same engineering problems I care about in real systems.
+## QDE-Systems
 
-## Focus
+QDE-Systems is built around a simple engineering view:
 
-- Deterministic AI agent runtimes
-- Risk-gated execution infrastructure
-- Audit-safe system boundaries
-- MCP servers and agent tooling
-- Local-first retrieval systems
-- Distributed Python and TypeScript backend design
+- decisions should be traceable;
+- risk should be checked before execution;
+- runtime boundaries should fail closed;
+- audit records should survive memory and opinion;
+- AI agents should be used as disciplined reviewers, not unsupervised operators.
 
-## Public Engineering Samples
+This is not a signal service, trading room, managed account product, or
+financial advice project.
+
+## Public Technical Reference
 
 | Repository | What it shows |
 | --- | --- |
-| [deterministic-execution-infrastructure](https://github.com/Stefan-Len/deterministic-execution-infrastructure) | Risk-gated execution cycle, deterministic order planning, and audit evidence. |
-| [deterministic-agent-runtime-architecture](https://github.com/Stefan-Len/deterministic-agent-runtime-architecture) | Agent runtime contracts, provider routing, approval gates, and execution ledger design. |
-| [market-data-mcp-server](https://github.com/Stefan-Len/market-data-mcp-server) | A bounded MCP tool server for keyless crypto market data and optional stock quotes. |
-| [rag-pipeline-example](https://github.com/Stefan-Len/rag-pipeline-example) | Local-first RAG with cited retrieval and optional LLM answer generation. |
+| [qde-systems-infrastructure](https://github.com/Stefan-Len/qde-systems-infrastructure) | Public architecture sample for risk-gated decisions, deterministic order planning, audit trails, and fail-closed execution boundaries. |
 
-## Engineering Position
+More public QDE-Systems material may be added over time, including the public
+operator-group page for selected licensed users.
 
-These repositories are not meant to look like production systems.
+## Engineering Focus
 
-They are public architecture and implementation samples. The goal is to make the important boundaries visible: where decisions are made, where risk is checked, where execution is planned, and where evidence is recorded.
+- Deterministic execution flows
+- Risk-gated runtime design
+- Audit-safe system boundaries
+- Broker/execution boundary design
+- AI-agent review workflows
+- Python backend architecture
+- macOS operator tooling
 
-Private strategy logic, credentials, broker integrations, customer data, and deployment material are not included.
+## Commercial Scope
 
-## How I Think About Systems
+The public samples do not include private strategy logic, broker integrations,
+IBKR execution code, credentials, private market-data configuration, model
+artifacts, customer data, or commercial QDE source code.
 
-- Make runtime authority explicit.
-- Treat model output as input to a controlled runtime.
-- Separate risk decisions from execution planning.
-- Prefer deterministic identifiers and reproducible results.
-- Record evidence for material decisions.
-- Keep demos small enough to inspect and run.
+Commercial QDE access is separate and application-based.
 
 ## Contact
 
