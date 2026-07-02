@@ -59,4 +59,6 @@ Commercial QDE access is separate and application-based.
 
 ## Contact
 
-stefanlen@qde-systems.com
+- Email: stefanlen@qde-systems.com
+- LinkedIn: [Stefan Len](https://www.linkedin.com/in/stefan-len-963813362/)
+- X: [@StefanLenQDE](https://x.com/StefanLenQDE)
