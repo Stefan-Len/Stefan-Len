@@ -13,7 +13,7 @@ instead of disappearing into a black box.
 My current work is focused on QDE: source-code infrastructure for disciplined,
 auditable execution workflows. The commercial system is private and
 application-based. The public repositories show selected architecture ideas,
-not the full QDE product.
+public positioning, and access/contact information, not the full QDE product.
 
 ## QDE-Systems
 
@@ -30,12 +30,14 @@ financial advice project.
 
 ## Public Technical Reference
 
-| Repository | What it shows |
+| Repository | Role |
 | --- | --- |
-| [qde-systems-infrastructure](https://github.com/Stefan-Len/qde-systems-infrastructure) | Public architecture sample for risk-gated decisions, deterministic order planning, audit trails, and fail-closed execution boundaries. |
+| [qde-systems-engine](https://github.com/Stefan-Len/qde-systems-engine) | Public QDE-Systems Engine presentation: reading path, positioning, access/contact, public technical overview, notice, and public content license. |
+| [qde-systems-infrastructure](https://github.com/Stefan-Len/qde-systems-infrastructure) | Compact technical reference sample for risk-gated decisions, deterministic order planning, audit trails, and fail-closed execution boundaries. |
 
-More public QDE-Systems material may be added over time, including the public
-operator-group page for selected licensed users.
+The public repositories are intentionally bounded. They are not the commercial
+source-code package, not a signal service, not broker/account helpdesk, not
+managed trading, and not financial advice.
 
 ## Engineering Focus
 
@@ -50,8 +52,8 @@ operator-group page for selected licensed users.
 ## Commercial Scope
 
 The public samples do not include private strategy logic, broker integrations,
-IBKR execution code, credentials, private market-data configuration, model
-artifacts, customer data, or commercial QDE source code.
+production broker adapter implementation, credentials, private market-data
+configuration, model artifacts, customer data, or commercial QDE source code.
 
 Commercial QDE access is separate and application-based.
 
