@@ -33,7 +33,7 @@ financial advice.
 
 | Repository | Role |
 | --- | --- |
-| [qde-systems-infrastructure](https://github.com/Stefan-Len/qde-systems-infrastructure) | Public synthetic validation harness for deterministic ordering, validation gates, a visible risk boundary, portfolio summary, and audit evidence. |
+| [qde-systems-infrastructure](https://github.com/Stefan-Len/qde-systems-infrastructure) | Public synthetic validation harness for deterministic ordering, validation gates, a visible risk boundary, count-based scorecard, and audit evidence. |
 
 This public repository is intentionally narrow. It is not the private
 QDE-Systems-ES source repo, not a trading strategy, not a backtest result, not a
@@ -43,8 +43,8 @@ broker connector, and not a LIVE-ready trading system.
 
 - Deterministic research workflows
 - Evidence-first validation
-- Long/short family-based system design
-- Portfolio-level policy and review
+- Long/short candidate lifecycle design
+- Portfolio-level summaries and review boundaries
 - Risk-gated infrastructure boundaries
 - Audit-safe runtime behavior
 - Python backend architecture
