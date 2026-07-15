@@ -6,56 +6,66 @@
 
 Founder/operator of **QDE-Systems**.
 
-I build deterministic execution infrastructure: systems where market data, risk
-boundaries, execution planning, audit records, and operator review stay visible
-instead of disappearing into a black box.
+I build deterministic research and execution-infrastructure systems for ES
+market work. The part I care about is not a single signal. It is the whole path:
+input contracts, validation gates, risk boundaries, audit records, and reviewable
+system behavior.
 
-My current work is focused on QDE: source-code infrastructure for disciplined,
-auditable execution workflows. The commercial system is private and
-application-based. The public repositories show selected architecture ideas,
-public positioning, and access/contact information, not the full QDE product.
+The private QDE-Systems work is not published here. The public GitHub material
+separates technical reference from presentation/access material, and it does not
+expose private strategy logic.
 
 ## QDE-Systems
 
 QDE-Systems is built around a simple engineering view:
 
 - decisions should be traceable;
-- risk should be checked before execution;
-- runtime boundaries should fail closed;
-- audit records should survive memory and opinion;
-- AI agents should be used as disciplined reviewers, not unsupervised operators.
+- research claims should be reproducible;
+- candidates should pass explicit validation before promotion;
+- risk boundaries should stay visible;
+- uncertain states should fail closed;
+- audit records should outlive memory and opinion;
+- AI agents should review evidence, code, and documentation, not operate trades.
 
-This is not a signal service, trading room, managed account product, or
-financial advice project.
+This is not a signal service, trading room, managed account project, or
+financial advice.
 
 ## Public Technical Reference
 
 | Repository | Role |
 | --- | --- |
-| [qde-systems-engine](https://github.com/Stefan-Len/qde-systems-engine) | Public QDE-Systems Engine presentation: reading path, positioning, access/contact, public technical overview, notice, and public content license. |
-| [qde-systems-infrastructure](https://github.com/Stefan-Len/qde-systems-infrastructure) | Compact technical reference sample for risk-gated decisions, deterministic order planning, audit trails, and fail-closed execution boundaries. |
+| [qde-systems-infrastructure](https://github.com/Stefan-Len/qde-systems-infrastructure) | Public synthetic validation harness for deterministic ordering, validation gates, a visible risk boundary, portfolio summary, and audit evidence. |
 
-The public repositories are intentionally bounded. They are not the commercial
-source-code package, not a signal service, not broker/account helpdesk, not
-managed trading, and not financial advice.
+This technical reference is intentionally narrow. It is not the private
+QDE-Systems-ES source repo, not a trading strategy, not a backtest result, not a
+broker connector, and not a LIVE-ready trading system.
+
+## Public Presentation And Access
+
+| Repository | Role |
+| --- | --- |
+| [qde-systems-engine](https://github.com/Stefan-Len/qde-systems-engine) | Public presentation and access page for QDE-Systems. It explains the operating philosophy, boundaries, and access path without publishing the private source tree. |
 
 ## Engineering Focus
 
-- Deterministic execution flows
-- Risk-gated runtime design
-- Audit-safe system boundaries
-- Broker/execution boundary design
-- AI-agent review workflows
+- Deterministic research workflows
+- Evidence-first validation
+- Long/short family-based system design
+- Portfolio-level policy and review
+- Risk-gated infrastructure boundaries
+- Audit-safe runtime behavior
 - Python backend architecture
-- macOS operator tooling
+- AI-agent review workflows
 
-## Commercial Scope
+## Private Work Boundary
 
-The public samples do not include private strategy logic, broker integrations,
-production broker adapter implementation, credentials, private market-data
-configuration, model artifacts, customer data, or commercial QDE source code.
+The public material does not include private setup-family logic, detector
+thresholds, real historical data packages, private market-data configuration,
+broker adapter implementation, account state, credentials, buyer material,
+commercial terms, or performance claims.
 
-Commercial QDE access is separate and application-based.
+Public code and docs are for inspection of the engineering shape. They are not a
+copy of the private QDE-Systems-ES system.
 
 ## Contact
 
