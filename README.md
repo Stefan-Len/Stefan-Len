@@ -11,9 +11,8 @@ market work. The part I care about is not a single signal. It is the whole path:
 input contracts, validation gates, risk boundaries, audit records, and reviewable
 system behavior.
 
-The private QDE-Systems work is not published here. The public GitHub material
-separates technical reference from presentation/access material, and it does not
-expose private strategy logic.
+The private QDE-Systems work is not published here. The public GitHub repository
+is a bounded technical reference; it does not expose private strategy logic.
 
 ## QDE-Systems
 
@@ -30,21 +29,15 @@ QDE-Systems is built around a simple engineering view:
 This is not a signal service, trading room, managed account project, or
 financial advice.
 
-## Public Technical Reference
+## Public Repository
 
 | Repository | Role |
 | --- | --- |
 | [qde-systems-infrastructure](https://github.com/Stefan-Len/qde-systems-infrastructure) | Public synthetic validation harness for deterministic ordering, validation gates, a visible risk boundary, portfolio summary, and audit evidence. |
 
-This technical reference is intentionally narrow. It is not the private
+This public repository is intentionally narrow. It is not the private
 QDE-Systems-ES source repo, not a trading strategy, not a backtest result, not a
 broker connector, and not a LIVE-ready trading system.
-
-## Public Presentation And Access
-
-| Repository | Role |
-| --- | --- |
-| [qde-systems-engine](https://github.com/Stefan-Len/qde-systems-engine) | Public presentation and access page for QDE-Systems. It explains the operating philosophy, boundaries, and access path without publishing the private source tree. |
 
 ## Engineering Focus
 
