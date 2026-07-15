@@ -65,3 +65,7 @@ copy of the private QDE-Systems-ES system.
 - Email: stefanlen@qde-systems.com
 - LinkedIn: [Stefan Len](https://www.linkedin.com/in/stefan-len-963813362/)
 - X: [@StefanLenQDE](https://x.com/StefanLenQDE)
+
+## Author
+
+Štefan Lengyel, trading as Stefan Len / QDE-Systems
