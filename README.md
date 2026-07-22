@@ -1,71 +1,56 @@
-<p align="center">
-  <img src="assets/qde-systems-banner.png" alt="QDE-Systems banner" width="100%">
-</p>
-
 # Stefan Len
 
 Founder/operator of **QDE-Systems**.
 
-I build deterministic research and execution-infrastructure systems for ES
-market work. The part I care about is not a single signal. It is the whole path:
-input contracts, validation gates, risk boundaries, audit records, and reviewable
-system behavior.
+I build deterministic execution infrastructure: systems where market data, risk
+boundaries, execution planning, audit records, and operator review stay visible
+instead of disappearing into a black box.
 
-The private QDE-Systems work is not published here. The public GitHub repository
-is a bounded technical reference; it does not expose private strategy logic.
+My current work is focused on QDE: source-code infrastructure for disciplined,
+auditable execution workflows. The commercial system is private and
+application-based. The public repositories show selected architecture ideas,
+not the full QDE product.
 
 ## QDE-Systems
 
 QDE-Systems is built around a simple engineering view:
 
 - decisions should be traceable;
-- research claims should be reproducible;
-- candidates should pass explicit validation before promotion;
-- risk boundaries should stay visible;
-- uncertain states should fail closed;
-- audit records should outlive memory and opinion;
-- AI agents should review evidence, code, and documentation, not operate trades.
+- risk should be checked before execution;
+- runtime boundaries should fail closed;
+- audit records should survive memory and opinion;
+- AI agents should be used as disciplined reviewers, not unsupervised operators.
 
-This is not a signal service, trading room, managed account project, or
-financial advice.
+This is not a signal service, trading room, managed account product, or
+financial advice project.
 
-## Public Repository
+## Public Technical Reference
 
-| Repository | Role |
+| Repository | What it shows |
 | --- | --- |
-| [qde-systems-infrastructure](https://github.com/Stefan-Len/qde-systems-infrastructure) | Public synthetic validation harness for deterministic ordering, validation gates, a visible risk boundary, count-based scorecard, and audit evidence. |
+| [qde-systems-infrastructure](https://github.com/Stefan-Len/qde-systems-infrastructure) | Public architecture sample for risk-gated decisions, deterministic order planning, audit trails, and fail-closed execution boundaries. |
 
-This public repository is intentionally narrow. It is not the private
-QDE-Systems-ES source repo, not a trading strategy, not a backtest result, not a
-broker connector, and not a LIVE-ready trading system.
+More public QDE-Systems material may be added over time, including the public
+operator-group page for selected licensed users.
 
 ## Engineering Focus
 
-- Deterministic research workflows
-- Evidence-first validation
-- Long/short candidate lifecycle design
-- Portfolio-level summaries and review boundaries
-- Risk-gated infrastructure boundaries
-- Audit-safe runtime behavior
-- Python backend architecture
+- Deterministic execution flows
+- Risk-gated runtime design
+- Audit-safe system boundaries
+- Broker/execution boundary design
 - AI-agent review workflows
+- Python backend architecture
+- macOS operator tooling
 
-## Private Work Boundary
+## Commercial Scope
 
-The public material does not include private setup-family logic, detector
-thresholds, real historical data packages, private market-data configuration,
-broker adapter implementation, account state, credentials, buyer material,
-commercial terms, or performance claims.
+The public samples do not include private strategy logic, broker integrations,
+IBKR execution code, credentials, private market-data configuration, model
+artifacts, customer data, or commercial QDE source code.
 
-Public code and docs are for inspection of the engineering shape. They are not a
-copy of the private QDE-Systems-ES system.
+Commercial QDE access is separate and application-based.
 
 ## Contact
 
-- Email: stefanlen@qde-systems.com
-- LinkedIn: [Stefan Len](https://www.linkedin.com/in/stefan-len-963813362/)
-- X: [@StefanLenQDE](https://x.com/StefanLenQDE)
-
-## Author
-
-Štefan Lengyel, trading as Stefan Len / QDE-Systems
+stefanlen@qde-systems.com
