@@ -28,6 +28,7 @@ financial advice project.
 
 | Repository | What it shows |
 | --- | --- |
+| [qde-systems-engine](https://github.com/Stefan-Len/qde-systems-engine) | Public QDE-Systems presentation and access page for the operating philosophy, boundaries, and contact path. |
 | [qde-systems-infrastructure](https://github.com/Stefan-Len/qde-systems-infrastructure) | Public architecture sample for risk-gated decisions, deterministic order planning, audit trails, and fail-closed execution boundaries. |
 
 More public QDE-Systems material may be added over time, including the public
